@@ -29,14 +29,21 @@ header nav ul{
 /*---Portada Index---*/
 
 
-section {
-    display: flex;
+.main {
     background-color: aquamarine;
 }
 
 .noticias {
     background-color: aqua;
 }
+
+.btn {
+    background-color: aqua;
+    list-style: none;
+    color: rgb(2, 9, 34);
+    display: block;
+}
+
 
 .donaciones {
     background-image: url(../img/perro.jpg);
