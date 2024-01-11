@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    background-color: aquamarine;
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header a {
+    color: black;
+}
+
+header nav ul{
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+/*---Portada Index---*/
+
+
+.main {
+    background-color: aquamarine;
+}
+
+.noticias {
+    background-color: aqua;
+}
+
+.btn {
+    background-color: aqua;
+    list-style: none;
+    color: rgb(2, 9, 34);
+    display: block;
+}
+
+
+.donaciones {
+    background-image: url(../img/perro.jpg);
+    height: 45vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.donaciones {
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+
+}
+
+.social-icons {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.social-icons li {
+    margin: 0 10px;
+}
+
+.social-icons img {
+    width: 30px;
+    height: 30px;
+}
+
+.donaciones a { color: rgb(43, 226, 101);}
+
+header nav img {
+    max-width: 200px;}
+
+article p { min-width: 25vh;
+    max-width: 50%;
+
+}
