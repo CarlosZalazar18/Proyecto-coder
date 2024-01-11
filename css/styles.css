@@ -20,15 +20,13 @@ header a {
     color: black;
 }
 
-header nav ul{
+header nav ul {
     list-style: none;
     display: flex;
     gap: 1rem;
 }
 
 /*---Portada Index---*/
-
-
 .main {
     background-color: aquamarine;
 }
@@ -43,7 +41,6 @@ header nav ul{
     color: rgb(2, 9, 34);
     display: block;
 }
-
 
 .donaciones {
     background-image: url(../img/perro.jpg);
@@ -65,7 +62,6 @@ footer {
     color: #fff;
     padding: 20px;
     text-align: center;
-
 }
 
 .social-icons {
@@ -85,12 +81,17 @@ footer {
     height: 30px;
 }
 
-.donaciones a { color: rgb(43, 226, 101);}
+.donaciones a {
+    color: rgb(43, 226, 101);
+}
 
 header nav img {
-    max-width: 200px;}
-
-article p { min-width: 25vh;
-    max-width: 50%;
-
+    max-width: 200px;
 }
+
+article p {
+    min-width: 25vh;
+    max-width: 50%;
+}
+
+/*# sourceMappingURL=styles.css.map */
