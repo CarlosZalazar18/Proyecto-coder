@@ -1,0 +1,16 @@
+.donaciones {
+    background-image: url(../img/perro.jpg);
+    height: 45vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.donaciones {
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.donaciones a { color: $color-don2;}
