@@ -10,11 +10,12 @@ header a {
     color: $color-secundario;
 }
 
-header nav ul{
+header nav ul {
     list-style: none;
     display: flex;
     gap: 1rem;
 }
 
 header nav img {
-    max-width: 200px;}
+    max-width: 200px;
+}
