@@ -1,0 +1,37 @@
+form {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+    align-content: center;
+    justify-items: center;
+
+    padding: 4rem;
+    gap: 2rem;
+
+    .input-group {
+        & span {
+            font-size: 1rem;
+            font-weight: 700;
+        }
+    }
+
+    .mb-3 {
+        & label {
+            font-size: 1rem;
+            font-weight: 700;
+        }
+    }
+
+    .boton_value {
+        @extend .btn;
+        font-size: 1rem;
+        font-weight: 700;
+
+        &:hover {
+            background-color: $color-don;
+            color: $color-primario;
+            text-shadow: -1px 1px 1px rgba(0, 0, 0, 0.455);
+        }
+    }
+}

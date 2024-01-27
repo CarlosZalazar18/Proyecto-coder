@@ -8,8 +8,41 @@ a {
   text-decoration: none;
 }
 
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  overflow: hidden;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  padding: 4rem;
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 2.2rem;
+  font-weight: 600;
+}
+
+h3 {
+  padding: 1rem 0;
+  font-size: 2rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-align: center;
+}
+
 header {
-  background-color: aquamarine;
+  background-color: rgb(33, 220, 157);
   padding: 2rem;
   display: flex;
   justify-content: space-between;
@@ -30,19 +63,44 @@ header nav img {
   max-width: 200px;
 }
 
+.carousel {
+  width: 100%;
+  height: 600px;
+  display: flex;
+}
+.carousel .carousel-inner {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  overflow: hidden;
+}
+.carousel .carousel-item {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  overflow: hidden;
+}
+.carousel .carousel-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  overflow: hidden;
+}
+
 footer {
   background-color: #333;
   color: #fff;
-  padding: 20px;
+  padding: 50px;
   align-content: space-between;
 }
 
 .social-icons {
   list-style: none;
   padding: 0;
+  margin-top: 20px;
   display: flex;
   justify-content: baseline;
-  margin-top: 20px;
 }
 
 .social-icons li {
@@ -54,11 +112,42 @@ footer {
   height: 30px;
 }
 
-.btn {
+.btn, form .boton_value {
+  padding: 1.2rem;
+  margin: 3rem 0;
   background-color: aqua;
   list-style: none;
   color: rgb(2, 9, 34);
+  font-size: 1.2rem;
+  font-weight: 700;
   display: block;
+}
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-content: center;
+  justify-items: center;
+  padding: 4rem;
+  gap: 2rem;
+}
+form .input-group span {
+  font-size: 1rem;
+  font-weight: 700;
+}
+form .mb-3 label {
+  font-size: 1rem;
+  font-weight: 700;
+}
+form .boton_value {
+  font-size: 1rem;
+  font-weight: 700;
+}
+form .boton_value:hover {
+  background-color: aliceblue;
+  color: aquamarine;
+  text-shadow: -1px 1px 1px rgba(0, 0, 0, 0.455);
 }
 
 .main {
@@ -87,15 +176,47 @@ article p {
 
 .donaciones a {
   color: rgb(43, 226, 101);
+  font-size: 2.5rem;
+  letter-spacing: 0.3rem;
+  font-weight: 900;
+  text-shadow: -2px 2px 5px rgba(0, 0, 0, 0.633);
+}
+
+.dona {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-items: center;
+  align-content: center;
+  padding: 4rem;
+  text-align: center;
+}
+
+.donar {
+  padding: 6rem;
 }
 
 .noticias {
   background-color: aquamarine;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .sobre-nosotros {
   background-color: aquamarine;
   align-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  padding: 4rem;
+  gap: 2rem;
 }
+.sobre-nosotros p {
+  font-size: 1.2rem;
+}
+.donar {background-color:aquamarine;}
+
+.main-contacto {background-color: aquamarine;}
 
 /*# sourceMappingURL=styles.css.map */
